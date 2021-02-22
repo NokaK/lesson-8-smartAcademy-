@@ -1,0 +1,97 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 6 version
+*/
+
+*{
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box
+}
+body {
+	overflow-x: hidden;
+}
+.container {
+	max-width: 1100px;
+	width: 100%;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+.first {
+	background-color: pink;
+}
+.second {
+	background-color: blue;
+}
+.wrapper {
+	background: purple;
+}
+.wrapper-content {
+	width: 100px;
+	height: 100px;
+	/*display: inline-block;*/
+	margin: 10px;
+	background-color: green;
+}
+.wrapper-box {
+	width: 100px;
+	height: 200px;
+	background: rgb(252,248,251);
+	background: -moz-linear-gradient(180deg, rgba(252,248,251,1) 26%, rgba(52,215,76,1) 48%, rgba(87,52,215,1) 84%);
+	background: -webkit-linear-gradient(180deg, rgba(252,248,251,1) 26%, rgba(52,215,76,1) 48%, rgba(87,52,215,1) 84%);
+	background: linear-gradient(180deg, rgba(252,248,251,1) 26%, rgba(52,215,76,1) 48%, rgba(87,52,215,1) 84%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#fcf8fb",endColorstr="#5734d7",GradientType=1)
+	margin: 10px;
+	text-align: center;
+}
+.flex {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	    flex-wrap: wrap;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center; /*ვერტიკალური მდებარეობა*/
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;/*ჰორიზონტალური მდებარეობა*/
+}
+.flex {
+	display: flex;
+}
+.justify-center {
+	justify-content: center;
+}
+.flex-wrap {
+	flex-wrap:wrap;
+}
+
+.green {
+	background: green;
+	font-size: 20px;
+}
+footer {
+	background-color: brown;
+}
+.box {
+	height: 400px;
+	width: 400px;
+	background-color: aqua;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: reverse;
+	    -ms-flex-direction: column-reverse;
+	        flex-direction: column-reverse;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+}
